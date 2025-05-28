@@ -4,11 +4,11 @@ const Progr = ({ program, onStepClick }) => {
   const getImageForStep = (step) => {
     switch (step) {
       case "L":
-        return "/left.png";
+        return "left.png";
       case "R":
-        return "/right.png";
+        return "right.png";
       case "F":
-        return "/forward.png";
+        return "forward.png";
       default:
         return null;
     }
