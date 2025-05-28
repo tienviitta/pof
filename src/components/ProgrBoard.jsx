@@ -31,28 +31,25 @@ const ProgrBoard = ({ board, headings, heading }) => {
                 >
                   {sym === "B" ? (
                     <img
-                      src="pof/src/assets/bee.png"
+                      //   src="pof/src/assets/bee.png"
+                      src="pof/bee.png"
                       alt="Bee"
                       className={rotationClass + " w-10 h-10"}
                     />
                   ) : sym === "F" ? (
                     <img
-                      src="pof/src/assets/flower.png"
+                      src="pof/flower.png"
                       alt="Flower"
                       className="w-10 h-10"
                     />
                   ) : sym === "T" ? (
                     <img
-                      src="pof/src/assets/teddy.png"
+                      src="pof/teddy.png"
                       alt="Teddy"
                       className="w-10 h-10"
                     />
                   ) : sym === "H" ? (
-                    <img
-                      src="pof/src/assets/hive.png"
-                      alt="Hive"
-                      className="w-10 h-10"
-                    />
+                    <img src="pof/hive.png" alt="Hive" className="w-10 h-10" />
                   ) : (
                     sym
                   )}
